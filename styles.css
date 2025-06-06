@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+  outline: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: 200px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  cursor: default;
+}
+
+main p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: default;
+}
+
+.box-input {
+  display: flex;
+  gap: 1rem;
+  margin: 0.4rem 0 2rem;
+}
+
+.box-input input {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+}
